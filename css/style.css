@@ -52,9 +52,6 @@
 
 */
 
-
-
-
 @media only screen and (max-width: 768px) {
     .d_content, .d_nav, .d_sidebar{
         min-height: 100px;
