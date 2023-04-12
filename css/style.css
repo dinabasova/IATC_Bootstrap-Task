@@ -7,12 +7,12 @@
     width: 100%;
     min-height: 100px;
     background: rgb(1, 62, 50);
-    float: left;
     margin: 10px 0;
+    float: left;
 }
 
-.d_nav{
-    width: 100%;
+.d_nav, .d_sidebar{
+   width: 100%;
     min-height: 400px;
     background: rgb(64, 189, 191);
     float: left;
@@ -25,13 +25,6 @@
     float: left;
 }
 
-.d_sidebar{
-    width: 100%;
-    min-height: 400px;
-    background: rgb(64, 189, 191);
-    float: left;
-}
-
 .d_navbar, .d_nav, .d_content, .d_sidebar, .d_footer{
     display: flex;
     justify-content: center;
@@ -39,20 +32,10 @@
 }
 
 .row{
-    margin-right: 0px;
+    margin-right: 0;
 }
 
-/* НЕ Сработало
-
-.d_flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-*/
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .d_content, .d_nav, .d_sidebar{
         min-height: 100px;
     }
