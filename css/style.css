@@ -35,7 +35,7 @@
     margin-right: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 575px) {
     .d_content, .d_nav, .d_sidebar{
         min-height: 100px;
     }
